@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.info{
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.wrapper{
+    width:100vw;
+    height: 600px;
+    border:1px solid goldenrod;
+}
+
+.left{
+    width:45%;
+    height: 100%;
+    display: inline-block;
+}
+
+.right{
+    width: 53%;
+    height: 100%;
+    display: inline-block;
+}
+/* first pic */
+
+.img-lt-wrapper{
+    padding:5% 8%;
+    position: relative;
+
+}
+
+.magmount{
+    width:250px;
+}
+
+/* second pic */
+.img-rt-wrapper{
+    padding:5% 8%;
+    position: relative;
+}
+
+
+.case{
+    position: absolute;
+    top:0;
+    left:400px;
+    width:560px;
+}
