@@ -52,3 +52,9 @@
     left:400px;
     width:560px;
 }
+
+@media screen and (max-width:800px){
+    #wrapper{
+        display: none;
+    }
+}
