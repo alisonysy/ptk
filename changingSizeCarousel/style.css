@@ -2,19 +2,19 @@
 
 .media-logos{
     margin:50px auto;
-    height: 200px;
+    height: 300px;
     width: 80%;
     border:1px solid pink;
 
-    display: grid;
+    /*display: grid;
     display: -moz-grid;
-    grid-template-columns: 6% 6% 6% 6% 6% 6% 28% 6% 6% 6% 6% 6% 6%;
+    grid-template-columns: repeat(6,6%) 28% repeat(6,6%);
     grid-template-rows: 50% 50%;
     grid-template-areas: 
         "item1 item1 item2 item2 item3 item3 active-item item4 item4 item5 item5 item6 item6"
         "item7 item7 item7 item8 item8 item8 active-item item9 item9 item9 item10 item10 item10";
     justify-items: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 .content-item{
@@ -24,49 +24,51 @@
     border:1px solid violet;
 }
 
-.item1{
-    grid-area: item1;
+/*.item1{
+    grid-area: item1 1/1/2/3;
 }
 
 .item2{
-    grid-area: item2;
+    grid-area: item2 1/3/2/5;
 }
 
 .item3{
-    grid-area: item3;
+    grid-area: item3 1/5/2/7;
 }
 
 .item4{
-    grid-area: item4;
+    grid-area: item4 1/8/2/10;
 }
 
 .item5{
-    grid-area: item5;
+    grid-area: item5 1/10/2/12;
 }
 
 .item6{
-    grid-area: item6;
+    grid-area: item6 1/12/2/14;
 }
 
 .item7{
-    grid-area: item7;
+    grid-area: item7 2/1/3/4;
 }
 
 .item8{
-    grid-area: item8;
+    grid-area: item8 2/4/3/7;
 }
 
 .item9{
-    grid-area: item9;
+    grid-area: 2/8/3/11;
 }
 
 .item10{
-    grid-area: item10;
-}
+    grid-area: 2/11/3/14;
+}*/
 
 
 .content-item.active{
-    grid-area: active-item;
+    /*grid-area: active-item 1/7/3/8;
+    grid-column: 7 / span 1;
+    grid-row: 1 / 3 ;*/
     width:100%;
     height: 50%;
 }
